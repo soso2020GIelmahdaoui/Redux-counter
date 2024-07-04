@@ -1,0 +1,35 @@
+
+.counter_app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.increment,
+.decrement {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.increment:hover,
+.decrement:hover {
+  background-color: #0056b3;
+}
+
+.counter-value {
+  font-size: 20px;
+  margin: 10px 0;
+}
